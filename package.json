@@ -1,0 +1,43 @@
+{
+  "name": "meteorToPhoneGap",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "Theo Robbertze <theo.robbertze@gmail.com>",
+  "description": "A simple script to export a working Meteor app to PhoneGap",
+  "contributors": [ 
+    {
+      "name": "Theo Robbertze",
+      "email": "theo.robbertze@gmail.com"
+    } 
+  ],
+  "bin": {
+    "meteorToPhoneGap": "./bin/meteorToPhoneGap"
+  },
+  "scripts": {
+    "start": "node ./bin/meteorToPhoneGap"
+  },
+  "main": "./bin/meteorToPhoneGap",
+  "keywords": [
+    "meteor",
+    "phonegap"
+  ],
+  "dependencies" : {
+    "commander"   : "*",
+    "request"     : "*",
+    "underscore"  : "*",
+    "ncp"         : "*",
+    "fs-extra"    : "*",
+    "async"       : "*"
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+    "union",
+    "ecstatic"
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
