@@ -1,7 +1,7 @@
 var program 	= require('commander')
-	,ncp 		= require('ncp').ncp
+	,ncp		= require('ncp').ncp
 	,fs			= require("fs-extra")
-	,request   	= require('request')
+	,request	= require('request')
 	,async		= require('async')
 	,_			= require('underscore');
 
