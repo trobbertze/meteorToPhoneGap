@@ -10,6 +10,9 @@
       "email": "theo.robbertze@gmail.com"
     } 
   ],
+  "bin": {
+    "meteorToPhoneGap": "./bin/meteorToPhoneGap"
+  },
   "scripts": {
     "start": "node ./main.js"
   },
