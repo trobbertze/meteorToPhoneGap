@@ -10,13 +10,14 @@
       "email": "theo.robbertze@gmail.com"
     } 
   ],
-  "bin": {
-    "meteorToPhoneGap": "./bin/meteorToPhoneGap"
-  },
   "scripts": {
-    "start": "node ./bin/meteorToPhoneGap"
+    "start": "node ./main.js"
   },
-  "main": "./bin/meteorToPhoneGap",
+  "main": "./main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trobbertze/meteorToPhoneGap.git"
+  },
   "keywords": [
     "meteor",
     "phonegap"
@@ -29,13 +30,8 @@
     "fs-extra"    : "*",
     "async"       : "*"
   },
-  "analyze": false,
-  "devDependencies": {
-  },
-  "bundledDependencies": [
-    "union",
-    "ecstatic"
-  ],  
+  "devDependencies": {},
+  "bundledDependencies": [],  
   "license": "MIT",
   "engines": {
     "node": ">=0.6"
